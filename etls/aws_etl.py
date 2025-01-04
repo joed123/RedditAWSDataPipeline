@@ -3,6 +3,7 @@ import s3fs
 def connect_to_s3():
     try:
         s3 = s3fs.S3FileSystem(
+                            #Removed for security
                                )
         return s3
     except Exception as e:
