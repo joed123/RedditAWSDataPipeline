@@ -1,0 +1,1 @@
+This project demonstrates how to build a complete data pipeline. It covers extracting data from Reddit using its API, managing ETL processes with Apache Airflow and Celery, storing data in Amazon S3, cataloging and transforming data with AWS Glue and Athena, and setting up and loading data into Amazon Redshift for analytics.
