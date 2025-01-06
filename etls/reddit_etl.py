@@ -9,9 +9,9 @@ from utils.constants import POST_FIELDS
 
 def connect_reddit(client_id, client_secret, user_agent) -> Reddit:
     try:
-        reddit = praw.Reddit(
-                            #Removed for security
-                             )
+        reddit = praw.Reddit(client_id=client_id,
+                             client_secret=client_secret,
+                             user_agent=user_agent)
         print("We are connected to Reddit")
         return reddit
     except Exception as e:
