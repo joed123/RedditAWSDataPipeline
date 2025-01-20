@@ -1,1 +1,8 @@
-A complete Reddit-to-AWS data pipeline. Extract data from Reddit using its API, manage ETL processes with Apache Airflow and Celery, store data in Amazon S3, catalog and transform data with AWS Glue and Athena, and set up and load data into Amazon Redshift for analytics.
+To run:
+
+1. python3 -m venv venv
+2. source venv/bin/activate
+3. pip install -r requirements.txt
+4. mv config/config.conf.example config/config.conf
+5. docker-compose up -d
+
