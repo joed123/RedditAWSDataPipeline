@@ -2,9 +2,11 @@ This project extracts data from Reddit using its API, manages ETL processes with
 
 To run:
 
-1. python3 -m venv venv
-2. source venv/bin/activate
-3. pip install -r requirements.txt
-4. mv config/config.conf.example config/config.conf
-5. docker-compose up -d
+1. Set up an AWS Account with appropriate S3, Glue, Athena, and Redshift permissions.
+2. Get a Reddit API key.
+3. python3 -m venv venv
+4. source venv/bin/activate
+5. pip install -r requirements.txt
+6. mv config/config.conf.example config/config.conf
+7. docker-compose up -d
 
